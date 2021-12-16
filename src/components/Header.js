@@ -21,7 +21,7 @@ function Header() {
                 alignSelf="flex-start">
                 <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
                     <Text fontSize="5xl" fontWeight="semibold">Hola! I am</Text>
-                    <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Adedeji Adebayo</Text>
+                    <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Deji Adebayo</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>SFS - Mobile and Web Applications Developer, IT Consultant, and Founder of https://findbizplug.com.
               A seasoned football punter & Entrepreneur 🗣 </Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
