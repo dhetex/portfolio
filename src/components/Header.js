@@ -7,7 +7,6 @@ import React from "react";
 import Typical from "react-typical";
 import "../App.css";
 
-
 function Header() {
   const { colorMode } = useColorMode();
   const isDark = colorMode === "dark";
@@ -32,7 +31,7 @@ function Header() {
       >
         <Box mt={isNotSmallerScreen ? "0" : 16} align="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
-            Hola👋, I am  
+            Hola👋, I am
           </Text>
           <Text
             fontSize="7xl"
@@ -48,7 +47,8 @@ function Header() {
           </Text>{" "}
           <h1>
             {" "}
-            <Typical className="doing"
+            <Typical
+              className="doing"
               steps={[
                 "Full Stack Developer 👨‍💻",
                 1000,
@@ -75,6 +75,15 @@ function Header() {
             }
           >
             Resume
+          </Button>
+          <Button
+            mt={8}
+            ml={10}
+            colorScheme="green"
+           
+            onClick={() => window.open("https://wa.me/+23408068945524")}
+          >
+            Hire me
           </Button>
         </Box>
         <Image
