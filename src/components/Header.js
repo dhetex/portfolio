@@ -32,7 +32,7 @@ function Header() {
       >
         <Box mt={isNotSmallerScreen ? "0" : 16} align="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
-            Hola! I am 👋 
+            Hola👋, I am  
           </Text>
           <Text
             fontSize="7xl"
@@ -50,15 +50,15 @@ function Header() {
             {" "}
             <Typical className="doing"
               steps={[
-                "Full Stack Developer",
+                "Full Stack Developer 👨‍💻",
                 1000,
-                "React Developer ⚛️ ",
+                "React Developer ⚛️",
                 1000,
-                "PHP Developer",
+                "PHP Developer🔥",
                 1000,
-                "JavaScript Developer",
+                "JavaScript Developer👍",
                 1000,
-                "Database Administrator",
+                "Database Administrator🤓",
                 1000,
               ]}
               loop={Infinity}
