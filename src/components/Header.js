@@ -74,7 +74,7 @@ function Header() {
               )
             }
           >
-            Hire Me
+            Resume
           </Button>
         </Box>
         <Image
