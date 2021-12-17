@@ -79,7 +79,7 @@ function Header() {
           <Button
             mt={8}
             ml={10}
-            colorScheme="green"
+            colorScheme="cyan"
            
             onClick={() => window.open("https://wa.me/+23408068945524")}
           >
