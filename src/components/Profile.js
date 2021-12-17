@@ -13,7 +13,7 @@ function Profile() {
       w="100%"
       maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
     >
-      <Box alignSelf="left" px="10" py="16">
+      <Box alignSelf="left" px="2" py="16">
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
           10+
         </Heading>
@@ -21,7 +21,7 @@ function Profile() {
           Years of Experience
         </Text>
       </Box>
-      <Box alignSelf="left" px="10" py="16">
+      <Box alignSelf="left" px="2" py="16">
         <Text fontWeight="bold" fontSize="2xl">
           Product Designer and Developer, specialised in mobile app and software
           development.
@@ -38,9 +38,7 @@ function Profile() {
           >
             <Icon color="white" p="4" as={DiAndroid} w="24" h="24" />
             <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-              <a href="https://ondotaxi.xyz">
-                Driver-Vehicle Reg Apps
-              </a>
+              <a href="https://ondotaxi.xyz">Driver-Vehicle Reg Apps</a>
             </Text>
           </Flex>
           <Flex
@@ -57,6 +55,22 @@ function Profile() {
             <Icon color="black" p="4" as={DiCodeigniter} w="24" h="24" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
               Payrol auditting software
+            </Text>
+          </Flex>
+          <Flex
+            rounded="xl"
+            direction="column"
+            mt={4}
+            ml={isNotSmallerScreen ? 4 : 0}
+            bg="gray.100"
+            h="30vh"
+            w="30vh"
+            justify="flex-end"
+            _hover={{ bg: "green.400" }}
+          >
+            <Icon as={DiWebplatform} p="4" w="24" h="24" color="black" />
+            <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
+              <a href="https://apcapp.ondotaxi.xyz/">Party e-registration</a>
             </Text>
           </Flex>
           <Flex
