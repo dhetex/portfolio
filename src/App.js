@@ -18,7 +18,7 @@ function App() {
           ><img src='./logo.png' width="100px" height="100px" alt="Logo"/></Heading>
 
         <Spacer></Spacer>
-        <IconButton icon={<FaWhatsapp />} isRound='true' onClick={() =>
+        <IconButton ml={2} icon={<FaWhatsapp />} isRound='true' onClick={() =>
                         window.open("https://wa.me/+23408068945524")
                     }></IconButton>
         
