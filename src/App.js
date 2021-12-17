@@ -15,7 +15,7 @@ function App() {
     <VStack p={5}>
       <Flex w="100%">
         <Heading
-          ><img src='./logo.png' width="100px" height="100px"/></Heading>
+          ><img src='./logo.png' width="100px" height="100px" alt="Logo"/></Heading>
 
         <Spacer></Spacer>
         <IconButton icon={<FaWhatsapp />} isRound='true' onClick={() =>
