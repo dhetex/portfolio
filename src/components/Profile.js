@@ -38,7 +38,7 @@ function Profile() {
           >
             <Icon color="white" p="4" as={DiAndroid} w="24" h="24" />
             <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-              <a href="https://ondotaxi.xyz" target="_blank">
+              <a href="https://ondotaxi.xyz">
                 Driver-Vehicle Reg Apps
               </a>
             </Text>
