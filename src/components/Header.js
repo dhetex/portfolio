@@ -42,23 +42,23 @@ function Header() {
             Deji Adebayo
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            SFS - Mobile and Web Applications Developer, IT Consultant, and IT
-            Trainings. A seasoned football punter & Entrepreneur 🗣
+            SFS - Business Apps | Web Application Development | Mobile Application Development | Solution Databases | Data Migration Services | Team Augmentation | Software Consultancy | Software Project Rescue |
+            Expertise IT Services & Outsourcing | Application Support & Maintenance | Hosting | Software Development for Startups & Ventures | Entrepreneur 🗣
           </Text>{" "}
           <h1>
             {" "}
             <Typical
-              className="doing"
+              className="features"
               steps={[
                 "Full Stack Developer 👨‍💻",
                 1000,
-                "React Developer ⚛️",
+                "PHP Developer ⚛️",
                 1000,
-                "PHP Developer🔥",
+                "React Developer🔥",
                 1000,
                 "JavaScript Developer👍",
                 1000,
-                "Database Administrator🤓",
+                "SQL Expert🤓",
                 1000,
               ]}
               loop={Infinity}
