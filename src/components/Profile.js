@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "@chakra-ui/media-query";
 import { Box, Flex, Heading, Text } from "@chakra-ui/layout";
 import Icon from "@chakra-ui/icon";
-import { DiCodeigniter, DiAndroid, DiWebplatform } from "react-icons/di";
+import { DiCodeigniter, DiAndroid, DiWebplatform, DiDatabase } from "react-icons/di";
 
 function Profile() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
@@ -23,8 +23,7 @@ function Profile() {
       </Box>
       <Box alignSelf="left" px="2" py="16">
         <Text fontWeight="bold" fontSize="2xl">
-          Product Designer and Developer, specialised in mobile app and software
-          development.
+          Find some of my projects below...
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
           <Flex
@@ -38,7 +37,7 @@ function Profile() {
           >
             <Icon color="white" p="4" as={DiAndroid} w="24" h="24" />
             <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-              <a href="https://ondotaxi.xyz">Driver-Vehicle Reg Apps</a>
+              <a href="https://bit.ly/3vMCNKm">Taxi Reg App</a>
             </Text>
           </Flex>
           <Flex
@@ -54,7 +53,9 @@ function Profile() {
           >
             <Icon color="black" p="4" as={DiCodeigniter} w="24" h="24" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Payrol auditting software
+           
+            <a href="https://bit.ly/435DQ2Q">Payroll Auditing Software</a>
+              
             </Text>
           </Flex>
           <Flex
@@ -70,7 +71,7 @@ function Profile() {
           >
             <Icon as={DiWebplatform} p="4" w="24" h="24" color="black" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              <a href="https://apcapp.ondotaxi.xyz/">Party e-registration</a>
+            <a href="https://ondocares.com/">Ondocare Web App</a>
             </Text>
           </Flex>
           <Flex
@@ -84,9 +85,9 @@ function Profile() {
             justify="flex-end"
             _hover={{ bg: "green.400" }}
           >
-            <Icon as={DiWebplatform} p="4" w="24" h="24" color="black" />
+            <Icon as={DiDatabase } p="4" w="24" h="24" color="black" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Automated exam system
+            <a href="https://bit.ly/3Ssefza">Computerized Exam System</a>
             </Text>
           </Flex>
         </Flex>
