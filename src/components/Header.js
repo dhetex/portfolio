@@ -31,7 +31,7 @@ function Header() {
       >
         <Box mt={isNotSmallerScreen ? "0" : 16} align="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
-            Hola👋, I am
+            Hey!👋, I am
           </Text>
           <Text
             fontSize="7xl"
@@ -42,8 +42,7 @@ function Header() {
             Deji Adebayo
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            SFS - Business Apps | Web Application Development | Mobile Application Development | Solution Databases | Data Migration Services | Team Augmentation | Software Consultancy | Software Project Rescue |
-            Expertise IT Services & Outsourcing | Application Support & Maintenance | Hosting | Software Development for Startups & Ventures | Entrepreneur 🗣
+            SFS - Full Stack Web Developer | Driven Web Developer With 5+ Years Experience | JavaScript | React | Node.js | SQL | UI/UX | Power BI | Hospitality | SIA Security | Entrepreneur 🗣
           </Text>{" "}
           <h1>
             {" "}
@@ -70,7 +69,7 @@ function Header() {
             colorScheme="blue"
             onClick={() =>
               window.open(
-                "https://www.dropbox.com/s/4rkyxbw7qndzu37/sfsCV.pdf?dl=0"
+                "https://www.dropbox.com/scl/fi/yk7dy8od0ipc7suofscpe/sfsCV.pdf?rlkey=kohh23lv36bttl4d3wl8ar9pj&dl=0"
               )
             }
           >
@@ -93,7 +92,7 @@ function Header() {
           borderRadius="full"
           backgroundColor="transparent"
           boxShadow="lg"
-          boxSize="300px"
+          boxSize="200px"
           src="https://github.com/dhetex.png"
         />
       </Flex>
